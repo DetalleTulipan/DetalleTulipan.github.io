@@ -1,0 +1,44 @@
+body {
+    background-color: #fdf3e3; /* Fondo suave y elegante */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Georgia', serif; /* Tipografía formal */
+    color: #333; /* Texto oscuro y elegante */
+}
+
+.container {
+    text-align: center;
+    padding: 40px;
+    border: 2px solid #e1c5a9; /* Borde sutil */
+    border-radius: 12px;
+    background-color: #fffefb; /* Fondo blanco suave */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* Sombra elegante */
+}
+
+h1 {
+    font-size: 4em;
+    margin: 0;
+    color: #8c6239; /* Color más formal y cálido */
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    background-color: #8c6239; /* Color del botón */
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #6b4829; /* Efecto hover más oscuro */
+}
